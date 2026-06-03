@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Output files
+output/
+*.glb
+*.obj
+*.mtl
+*.png
+!sample_input/*.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Viewer libraries (too large for git)
+viewer/three.min.js
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
